@@ -1,0 +1,63 @@
+html
+{
+    height: 100%;
+}
+
+
+
+.bodyform
+{
+    background: linear-gradient(hsla(121, 78%, 57%, 0.54), white);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+.container
+{
+   margin-top: 5%; 
+}
+
+#bodyResult
+{
+    background: linear-gradient(hsla(121, 78%, 57%, 0.54), white);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron
+{   
+        
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("http://stdaily.ghost.io/content/images/2016/10/KnowledgeHoarding.jpg");
+    background-position: center;
+    
+    /*background-repeat: no-repeat;*/
+    
+}
+
+
+.jumbotron h1 
+{
+    
+     
+    text-align: center;
+    font-family: 'Futura Today';
+    font-weight: bold;
+    color: black;
+    
+    
+}
+
+.jumbotron p
+{
+    text-align: center;
+    font-family: 'Futura Today';
+    font-weight: bold;
+}
