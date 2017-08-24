@@ -1,0 +1,34 @@
+<% include partials/header %>
+    
+    <!--why didnt the id allow me to apply the css properties on the button inside the jumbotron-->
+    <body id = "bodyResult">
+    
+    <div class="jumbotron jumbotron-fluid">
+      <h1 class="display-3"> <%= input %> books </h1>
+      <p class="lead">
+      <a  class="btn btn-primary btn-lg" href="/form" role="button"> Search </a>
+      </p>
+    </div>  
+      
+    <div class="container">  
+      
+        <div class = "row text-center" style="display:flex; flex-wrap: wrap;">
+            <% data["Books"].forEach(function(book){ %>
+                <!---->
+                <div class = "col-lg-4">
+                  
+                    <img class="img-thumbnail" class="card-img-top" src="<%= book["Image"] %>" alt="Card image cap">
+                    
+                </div>    
+             <% }); %>
+        </div>
+    </div>
+
+    </body>
+
+<% console.log("results page");%>
+
+
+
+
+<% include partials/footer %>
