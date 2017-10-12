@@ -4,7 +4,7 @@ var request = require("request");
 var bodyParser = require("body-parser");
 
 //APP CONFIGURATION
-
+//Project
 app.set("view engine","ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
